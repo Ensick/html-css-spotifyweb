@@ -27,20 +27,35 @@
 
 /* CONT-LEFT */
 .cont-left{
+    display: flex;
+    flex-basis: 20%;
     flex-direction: column;
+    justify-content: space-between;
     background-color: black;
-    width: 20vw;
     color: white;
     padding: 25px;
+    height: 80vh;
 }
 
 .fa-bars{
     rotate: 90deg;
 }
 
-.col{
+.cont-left-center{
     display: flex;
     flex-direction: column;
+}
+
+.divisor{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+.cont-left-btm{
+    display: flex;
+    flex-direction: column;
+
 }
 
 
@@ -48,6 +63,26 @@
 
 /* CONT-RIGHT */
 
+.cont-right{
+    flex-basis: 80%;
+}
+
+.fixed-bar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    color: white;
+    padding: 25px;
+}
+
+.btn{
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
 
 
 
