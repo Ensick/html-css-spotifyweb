@@ -19,6 +19,7 @@
 
 .cont-main{
     display: flex;
+    height: calc( 100vh - 90px);
 }
 
 
@@ -60,7 +61,6 @@
 
 .cont-right{
     flex-basis: 80%;
-    height: 90vh;
     flex-wrap: wrap;
     overflow-y: scroll;
 }
@@ -98,7 +98,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: gray;
-    height: 10vh;
+    height: 90px;
     color: white;
     padding: 20px 10px;
 }
@@ -112,7 +112,7 @@
 }
 
 .cont-bottom-img{
-    width: 50px;
+    width: 40px;
 }
 
 .cont-bottom-img > img{
