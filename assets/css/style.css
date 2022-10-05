@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTEINER-SPOTIFY */
+
+.conteiner-spotify{
+    height: 100vh;
+    background-color: #141922;
+}
+
+
+
+
+/* CONT-MAIN */
+
+.cont-main{
+    display: flex;
+}
+
+
+
+
+
+
+/* CONT-LEFT */
+.cont-left{
+    flex-direction: column;
+    background-color: black;
+    width: 20vw;
+    color: white;
+    padding: 25px;
+}
+
+.fa-bars{
+    rotate: 90deg;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* CONT-RIGHT */
+
+
+
+
+
+
+/* CONT-BOTTOM */
