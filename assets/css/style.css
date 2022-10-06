@@ -20,20 +20,12 @@ html{
     background-color: #141922;
 }
 
-
-
-
 /* CONT-MAIN */
 
 .cont-main{
     display: flex;
     height: calc( 100vh - 90px);
 }
-
-
-
-
-
 
 /* CONT-LEFT */
 
@@ -66,6 +58,10 @@ html{
     margin-bottom: 15px;
 }
 
+.cont-left-top-icons i,span:hover{
+    color: white;
+}
+
 .cont-left-top-icons > i{
     font-size: 1.3rem;
     margin-right: 5px;
@@ -95,9 +91,13 @@ html{
     margin-bottom: 20px;
 }
 
-.cont-left-center ul >li{
+.cont-left-center ul > li{
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+li:hover{
+   color: white;
 }
 
 .cont-left-btm i{
@@ -121,7 +121,6 @@ html{
     cursor: pointer;
 }
 
-
 /* CONT-RIGHT */
 
 .cont-right{
@@ -130,8 +129,6 @@ html{
     color: white;
     flex-grow: 1;
 }
-
-
 
 .fixed-bar{
     text-align: right;
@@ -148,6 +145,11 @@ html{
     padding: 10px 20px;
     border-radius: 30px;
     cursor: pointer;
+    display: inline-block;
+}
+
+.upgrade-btn:hover{
+    transform: scale(1.3);
 }
 
 .nav-card{
@@ -177,6 +179,11 @@ html{
 .nav-card > span{
     margin: 10px;
     color: #7D7F84;
+    cursor: pointer;
+}
+
+.nav-card > span:hover{
+   color: white;
 }
 
 .card{
@@ -326,9 +333,6 @@ html{
     background-color: #C1C1C1;
 }
 
-
-
-
 .cont-bottom-right{
     display: flex;
     align-items: center; 
@@ -394,8 +398,6 @@ html{
     }
 }
 
-
-
 @media screen and (max-width: 592px){
 
     .cont-left-center {
@@ -450,7 +452,6 @@ html{
         padding: 5px;
         text-align: center;
     }
-
 
     .card-section > h2 {
         font-size: 2rem;
@@ -536,7 +537,6 @@ html{
     .fa-desktop{
         display: none;
     }
-
 
 }
 
