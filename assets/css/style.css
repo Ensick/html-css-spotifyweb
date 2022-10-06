@@ -9,6 +9,8 @@
 
 html{
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 /* CONTEINER-SPOTIFY */
@@ -80,7 +82,6 @@ html{
 }
 
 .cont-left-center div > i{
-    font-size: 1.3rem;
     color: black;
     padding: 10px;
     display: inline-block;
@@ -90,6 +91,10 @@ html{
 .playlist{
     margin-bottom: 20px;
 }
+
+/* .playlist > span{
+    font-size: 0.8rem
+} */
 
 .cont-left-center ul >li{
     margin-bottom: 20px;
@@ -147,11 +152,6 @@ html{
     cursor: pointer;
 }
 
-.card-section{
-    /* padding-top: 20px; */
-}
-
-
 .nav-card{
     text-align: center;
 }
@@ -161,20 +161,76 @@ html{
     flex-wrap: wrap;
 }
 
-.card{
-    width: calc( 100% / 5 );
+.card-section{
+    margin-bottom: 40px;
+    padding-left: 5px;
 }
 
-.ablum > img{
-    width: 100%;
+.card-section > h2{
+    font-size: 2rem;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.nav-card{
+    margin: 20px 0 40px 0;
 }
 
 .nav-card > span{
-    margin: 0 10px;
+    margin: 10px;
     color: #7D7F84;
 }
 
+.card{
+    width: calc( 100% / 6 );
+    padding: 0 10px;
+    text-align: center;
+}
 
+.card > h3{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card > span{
+    color: #7D7F84;
+}
+
+.card-section-text {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.card-section-text > h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.card-section-text > span{
+    color: #7D7F84;
+}
+
+.album{
+    margin-bottom: 15px;
+}
+
+.album > img{
+    width: 100%;
+}
+
+.album-circle{
+    margin-bottom: 20px;
+}
+
+.album-circle > img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text{
+    text-align: center;
+}
 
 
 /* CONT-BOTTOM */
