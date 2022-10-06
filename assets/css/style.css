@@ -51,8 +51,7 @@ html{
 }
 
 .cont-left-top-img{
-    width: 130px;
-    margin: 0 0 20px 0;
+    margin-bottom: 15px;
 }
 
 .big-logo{
@@ -121,7 +120,6 @@ html{
     display: inline-block;
     cursor: pointer;
 }
-
 
 
 /* CONT-RIGHT */
@@ -357,6 +355,7 @@ html{
         padding: 10px;
         text-align: center;
     }
+
 }
 
 @media screen and (max-width: 512px){
@@ -399,12 +398,45 @@ html{
 
 @media screen and (max-width: 592px){
 
+    .cont-left-center {
+        display: none;
+    }
+
+    .cont-left-top div > span {
+        display: none;
+    }
+
+    .big-logo{
+        display: none;
+    }
+
+    .small-logo{
+        display: block;
+        width: 25px;
+    }
+
+    .cont-left-btm span {
+        display: none;
+    }
+
+    .divisor{
+       display: none;
+    }
+
+    .name-profile {
+       display: none;
+    }
+
     .volume-back-2 {
         display: none;
     }
 
     .volume-on-2 {
         display: none;
+    }
+
+    .cont-left {
+        padding: 10x;
     }
 
 }
@@ -489,7 +521,23 @@ html{
         margin: 0 10px;
         font-size: 0.7rem;
     }
-    
+
+    .cont-left-btm i {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .fa-heart,
+    .fa-folder{
+        display: none;
+    }
+
+    .fa-bars,
+    .fa-desktop{
+        display: none;
+    }
+
+
 }
 
 @media screen and (max-width: 325px){
@@ -498,35 +546,43 @@ html{
        font-size: 0.7rem;
     }
 
-    .cont-left-center {
-        display: none;
+    .icons-left {
+        flex-wrap: wrap;
+        margin-left: 10px;
     }
 
-    .cont-left-top div > span {
-        display: none;
+    .icons-left > i{
+        margin-right: 5px;
     }
 
-    .big-logo{
-        display: none;
+    .cont-bottom-center-top {
+        font-size: 1rem;
+        margin-bottom: 5px;
     }
 
-    .small-logo{
-        display: block;
-        width: 25px;
+    .fa-circle-play {
+        font-size: 1.7rem;
     }
 
-    .cont-left-btm span {
-        display: none;
-    }
-
-    .divisor{
-       display: none;
-    }
-
-    .name-profile {
-       display: none;
+    .cont-bottom-center-top > i {
+        margin: 0 5px;
     }
     
+    .cont-bottom-center-btm > span {
+        margin: 0 10px;
+        font-size: 0.7rem;
+    }
+
+    .fa-heart,
+    .fa-folder{
+        display: none;
+    }
+
+    .fa-bars,
+    .fa-desktop{
+        display: none;
+    }
+
 }
 
 
